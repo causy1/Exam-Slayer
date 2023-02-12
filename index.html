@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Slayer</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/js/index.js">
+    </script>
+</head>
+
+<body>
+
+
+    <div class="header">
+        <div class="active">
+            <a href="index.html"><img src="/images/home.png" alt="Home" id="home_img"></a>
+        </div>
+        <div id="about"><a href="about.html">About</a></div>
+
+        <div class="dropdown" id="social">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              social
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                    <a class="dropdown-item" href="https://instagram.com/examslayer2023?igshid=YmMyMTA2M2Y=" target="_blank"><img src="/images/insta icon.png" style="height: 20px; width: 20px;" alt="."> Instagram</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#"><img src="/images/facebook.png" style="height: 20px; width: 20px;" alt="."> Facebook</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Something else</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <div class="searchBar">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+
+
+
+    <div class="sidenav">
+        <a href="#about">Computer Vision</a>
+        <a href="#services">Machine Learning</a>
+        <a href="#clients">Software Engineering</a>
+        <a href="#contact"></a>
+        <button class="dropdown-btn" onclick="droppy()">Internet of things
+                  <i class="fa fa-caret-down"></i>
+                </button>
+        <div class="dropdown-container">
+            <a href="https://www.javatpoint.com/iot-internet-of-things">Intro to Iot</a>
+            <a href="#">IOT and M2M</a>
+            <a href="#">Intro to python</a>
+            <a href="#">IOT physical and endpoints</a>
+            <a href="#">IOT physical servers and cloud offerings</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
