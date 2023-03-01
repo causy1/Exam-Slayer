@@ -53,12 +53,21 @@ body {
     color: rgb(255, 254, 254);
 }
 
+
+/*searchbar*/
+
 .searchBar {
-    position: absolute;
-    left: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
     top: 200px;
-    height: 200px;
-    width: 100px;
+}
+
+.form-select {
+    width: 10px;
+    background-color: black;
+    border-color: rgb(0, 90, 0);
+    color: rgb(0, 90, 0);
 }
 
 .header input[type=text] {
