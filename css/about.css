@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*styling for home,about ,contacts and search bar */
+
+.header {
+    background-color: #a19696;
+    display: flex;
+    padding: 10px;
+    align-items: stretch;
+    align-items: center;
+}
+
+.active {
+    background-color: #a19696;
+    color: white;
+}
+
+#home_img {
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+#about {
+    position: relative;
+    left: 20px;
+}
+
+#about a {
+    font-size: 20px;
+    color: #000000d9;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#social {
+    left: 40px;
+}
+
+#about a:hover {
+    background-color: #0e0d0d;
+    color: rgb(255, 254, 254);
+}
