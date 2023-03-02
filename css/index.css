@@ -68,6 +68,11 @@ body {
     background-color: black;
     border-color: rgb(0, 90, 0);
     color: rgb(0, 90, 0);
+    filter: brightness(150%);
+}
+
+option {
+    filter: brightness(2000%);
 }
 
 .header input[type=text] {
@@ -178,4 +183,48 @@ body {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.slide123 {
+    display: flex;
+}
+
+.slide1 {
+    position: relative;
+    width: 30%;
+    height: 400px;
+    left: 20%;
+}
+
+.slide2 {
+    position: relative;
+    width: 30%;
+    height: 400px;
+    left: 30%;
+}
+
+#ML {
+    height: 398px;
+}
+
+#iot {
+    height: 398px;
+}
+
+#cv {
+    height: 398px;
+}
+
+#SE {
+    height: 398px;
+}
+
+#NLP {
+    height: 398px;
+}
+
+.footer {
+    border: 2px solid;
+    background-color: #a19696;
+    height: 100px;
 }
